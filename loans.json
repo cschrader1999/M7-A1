@@ -1,0 +1,42 @@
+[
+    {
+        "name": "John Smith",
+        "loanType": "Personal Loan",
+        "loanNumber": "PL1001",
+        "amount": 10000,
+        "interestRate": "6.5%",
+        "loanTerm": "3 years"
+    },
+    {
+        "name": "Sarah Johnson",
+        "loanType": "Auto Loan",
+        "loanNumber": "AL2002",
+        "amount": 25000,
+        "interestRate": "4.75%",
+        "loanTerm": "5 years"
+    },
+    {
+        "name": "Michael Brown",
+        "loanType": "Mortgage",
+        "loanNumber": "MT3003",
+        "amount": 200000,
+        "interestRate": "3.75%",
+        "loanTerm": "30 years"
+    },
+    {
+        "name": "Jennifer Lee",
+        "loanType": "Student Loan",
+        "loanNumber": "SL4004",
+        "amount": 50000,
+        "interestRate": "5.25%",
+        "loanTerm": "10 years"
+    },
+    {
+        "name": "David Chen",
+        "loanType": "Small Business Loan",
+        "loanNumber": "SBL5005",
+        "amount": 100000,
+        "interestRate": "7%",
+        "loanTerm": "5 years"
+    }
+]

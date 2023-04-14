@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Loan Data Table</title>
+        <style>
+            table {
+                border-collapse: collapse;
+                width: 100%;
+            }
+            th, td {
+                text-align: left;
+                padding: 8px;
+                border-bottom: 1px solid #ddd;
+            }
+            tr:hover {
+                background-color: #f5f5f5;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Loan Data Table</h1>
+        <table>
+            <thread>
+                <tr>
+                    <th>Customer Name</th>
+                    <th>Loan Type</th>
+                    <th>Loan Number</th>
+                    <th>Amount</th>
+                    <th>Interest Rate</th>
+                    <th>Loan Term</th>
+                </tr>
+            </thread>
+            <tbody>
+                <% for (let i = 0; i < loans.length; i++) { %>
+                    <tr>
+                        <td><%= loans[i].name %></td>
+                        <td><%= loans[i].loanType %></td>
+                        <td><%= loans[i].loanNumber %></td>
+                        <td><%= loans[i].amount %></td>
+                        <td><%= loans[i].interestRate %></td>
+                        <td><%= loans[i].loanTerm %></td>
+                    </tr>
+                <% } %>
+            </tbody>
+        </table>
+    </body>
+</html>
